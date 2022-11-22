@@ -18,8 +18,13 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
+  <!-- Stylesheets -->
+  <script>performance.mark('parsing:css:start');</script>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <script>performance.mark('parsing:css:end');</script>
+
+  <!-- Javascript -->
 
   <meta name="theme-color" content="#fafafa">
   <meta name="robots" content="noindex">
@@ -60,6 +65,9 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+<!-- Retreive performance marks -->
+ <script> performance.measure('blocking-styles', 'parsing:css:start', 'parsing:css:end');</script>
 </body>
 
 </html>
