@@ -5,7 +5,11 @@
   <script>performance.mark('parsing:head:start');</script>
 
   <meta charset="utf-8">
-  <title></title>
+  <title>Chaykelly.me Netlify Test</title>
+
+  <!-- Meta tags -->
+  <meta name="theme-color" content="#fafafa">
+  <meta name="robots" content="noindex">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,10 +29,14 @@
   <script>performance.mark('parsing:css:end');</script>
 
   <!-- Javascript -->
+  <script>performance.mark('parsing:js:start');</script>
 
-  <meta name="theme-color" content="#fafafa">
-  <meta name="robots" content="noindex">
-  <link rel="canonical" href="https://inspiring-rabanadas-243b3b.netlify.app/" />
+  <script>performance.mark('parsing:js:end');</script>
+
+
+  <link rel="canonical" href="https://chaykelly.me" />
+
+
   <script>performance.mark('parsing:head:end');</script>
 </head>
 
@@ -59,15 +67,9 @@
   </form>
 
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-
 <!-- Retreive performance marks -->
- <script> performance.measure('blocking-styles', 'parsing:css:start', 'parsing:css:end');</script>
+  <script> performance.measure('blocking-styles', 'parsing:css:start', 'parsing:css:end');</script>
+  <script> performance.measure('blocking-js', 'parsing:js:start', 'parsing:js:end');</script>
 </body>
 
 </html>
