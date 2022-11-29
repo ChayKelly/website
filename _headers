@@ -1,19 +1,16 @@
-
-
-/*.css
-Cache-Control: public, max-age=31536000, immutable
-X-Powered-By: Netlify+Cloudflare+HTML
-
-/*.js
-Cache-Control: public, max-age=31536000, immutable
-X-Powered-By: Netlify+Cloudflare+HTML
-
-
-/*.woff2
-Cache-Control: public, max-age=31536000, immutable
-X-Powered-By: Netlify+Cloudflare+HTML
-
-/*
+#/*.css
 #Cache-Control: public, max-age=31536000, immutable
-X-Powered-By: Netlify+Cloudflare+HTML
-last-modified: Tue, 29 Nov 2021 11:00:26 GMT
+
+
+#/*.js
+#Cache-Control: public, max-age=31536000, immutable
+#X-Powered-By: Netlify+Cloudflare+HTML
+
+
+#/*.woff2
+#Cache-Control: public, max-age=31536000, immutable
+
+#/*
+#X-Powered-By: Netlify+Cloudflare+HTML
+#last-modified: Tue, 29 Nov 2022 11:00:26 GMT
+#Cache-Control: public, max-age=31536000, immutable
