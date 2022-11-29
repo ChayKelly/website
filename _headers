@@ -3,19 +3,17 @@
 /*.css
 Cache-Control: public, max-age=31536000, immutable
 X-Powered-By: Netlify+Cloudflare+HTML
-last-modified: Wed, 29 Nov 2021 11:00:26 GMT
 
 /*.js
 Cache-Control: public, max-age=31536000, immutable
 X-Powered-By: Netlify+Cloudflare+HTML
-#Last-Modified:
+
 
 /*.woff2
 Cache-Control: public, max-age=31536000, immutable
 X-Powered-By: Netlify+Cloudflare+HTML
-#Last-Modified:
 
 /*
-Cache-Control: public, max-age=31536000, immutable
+#Cache-Control: public, max-age=31536000, immutable
 X-Powered-By: Netlify+Cloudflare+HTML
-last-modified: Wed, 29 Nov 2021 11:00:26 GMT
+last-modified: Tue, 29 Nov 2021 11:00:26 GMT
