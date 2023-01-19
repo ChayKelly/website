@@ -3,6 +3,36 @@
 
 <head>
     <script>performance.mark('parsing:head:start');</script>
+    <style>/* asap-regular - latin */
+    @font-face {
+        font-family: 'Asap';
+        font-style: normal;
+        font-weight: 400;
+        src: local(''),
+        url('../fonts/asap-v26-latin-regular.woff2?ver=1') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/asap-v26-latin-regular.woff?ver=1') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        font-display: swap;
+    }
+    /* asap-600 - latin */
+    @font-face {
+        font-family: 'Asap';
+        font-style: normal;
+        font-weight: 600;
+        src: local(''),
+        url('../fonts/asap-v26-latin-600.woff2?ver=1') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/asap-v26-latin-600.woff?ver=1') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        font-display: swap;
+    }
+    /* asap-900 - latin */
+    @font-face {
+        font-family: 'Asap';
+        font-style: normal;
+        font-weight: 900;
+        src: local(''),
+        url('../fonts/asap-v26-latin-900.woff2?ver=1') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/asap-v26-latin-900.woff?ver=1') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        font-display: swap;
+    }</style>
 
     <meta charset="utf-8">
     <title>Chaykelly.me Netlify Test</title>
@@ -32,7 +62,9 @@
     <!-- Javascript -->
     <script>performance.mark('parsing:js:start');</script>
 
-    <script>performance.mark('parsing:js:end');</script>
+    <script>performance.mark('parsing:js:end');
+    performance.measure('js', 'parsing:js:start', 'parsing:js:end');
+    </script>
 
 
     <link rel="canonical" href="https://chaykelly.me"/>
@@ -71,7 +103,7 @@
     </div>
     <div class="column">
         <h2>Column 2</h2>
-        <!-- Start container for the blob and text -->
+        <!-- Start container for the blob and text using https://toruskit.com/tools/blobz/ -->
         <div class="container">
             <div class="tk-blob" style="--time: 20s; --amount: 5; --fill: #56cbb9;">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440.7 428.7">
