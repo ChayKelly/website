@@ -311,3 +311,17 @@ section {
   height: 100%;
 }
 
+/* overlay text on blob */
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
