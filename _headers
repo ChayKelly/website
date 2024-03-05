@@ -12,6 +12,8 @@ Cache-Control: public, max-age=31536000, immutable
 /*
 X-Powered-By: Netlify+Cloudflare+HTML
 last-modified: Wed, 24 May 2023 16:09:26 GMT
-Set-Cookie: testCookie=tEsT;
-Set-Cookie: sessionId=38afes7a8;
+Set-Cookie: testCookie=tEsT; HttpOnly; max-age=12000; path=/; SameSite=Strict; Secure;
+
+/blog*
+Set-Cookie: sessionId=38afes7a8; HttpOnly; max-age=120; path=/blog; SameSite=Strict; Secure;
 
